@@ -1,5 +1,5 @@
 * {
-  padding:0;
+  padding: 10px;;
   margin: 0;
 }
 
@@ -7,13 +7,14 @@
   width: 500px;
   height: 200px;
   border: 1px solid black;
+  position: relative;
 }
 
 #character {
   width: 20px;
   height: 50px;
-  background-color: red;
-  position: relative;
+  background-color: rgb(109, 2, 170);
+  position: absolute;
   top: 150px;
 }
 
@@ -31,14 +32,15 @@
 #block {
   width: 20px;
   height: 20px;
-  background-color: blue;
-  position: relative;
-  top: 130px;
+  background-color: rgb(5, 128, 1);
+  position: absolute;
+  bottom: 0px;
   left: 480px;
   animation: slide 1s infinite;
 }
 
 @keyframes slide {
   0%{left: 480px;}
+  50%{left: 220px}
   100%{left: -40px;}
 }
