@@ -19,7 +19,7 @@
 }
 
 .animate{
-  animation: jump 500ms;
+  animation: jump 1s;
 } 
 
 @keyframes jump {
@@ -36,11 +36,10 @@
   position: absolute;
   bottom: 0px;
   left: 480px;
-  animation: slide 1s infinite;
+  animation: slide 2s infinite;
 }
 
 @keyframes slide {
   0%{left: 480px;}
-  50%{left: 220px}
   100%{left: -40px;}
 }

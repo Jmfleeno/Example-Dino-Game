@@ -6,7 +6,7 @@ const jump = function() {
   }
   setTimeout(function(){
     character.classList.remove('animate');
-  }, 500);
+  }, 1000);
 }
 
 document.addEventListener('click', jump);
